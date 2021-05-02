@@ -1,0 +1,9 @@
+.protfilio-header {
+  border-bottom: 1px dashed gray;
+  padding-top: 40px;
+}
+.protfilio-header span {
+  color: #db3d44;
+  font-size: 28px;
+  font-weight: 500;
+}

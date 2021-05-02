@@ -1,0 +1,18 @@
+.protfilio-detls-container {
+}
+.protfilio-detls {
+  padding: 30px 10px;
+  background-color: #7373735e;
+}
+.protfilio-detls h5 {
+  padding-bottom: 10px;
+}
+.protfilio-detls span {
+  margin: 5px;
+  background-color: #db3d44;
+  padding: 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}

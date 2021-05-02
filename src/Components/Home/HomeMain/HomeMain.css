@@ -1,0 +1,24 @@
+.homemainContainer {
+  background-image: url("../../../Images/photo-1517999144091-3d9dca6d1e43.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.resume-btn {
+  padding: 10px 30px;
+  border: 3px solid #db3d44;
+  background-color: #00000040;
+}
+.resume-btn a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+}
+.resume-btn a:hover {
+  color: white;
+  text-decoration: none;
+}
+/* #db3d44 */
