@@ -22,3 +22,7 @@
   text-decoration: none;
 }
 /* #db3d44 */
+.my-social li {
+  list-style: none;
+  padding: 16px 0px;
+}
