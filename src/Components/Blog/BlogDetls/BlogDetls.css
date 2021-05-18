@@ -1,0 +1,22 @@
+.blog-button {
+  padding: 5px 16px;
+  background-color: #86858512;
+
+  border: 3px solid #db3d44;
+  margin: 10px 0px;
+}
+.blog-button a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.blog-detls {
+  background-color: #86858526;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.blog-detls p {
+  color: #ddd;
+  padding-top: 20px;
+}

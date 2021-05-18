@@ -1,6 +1,7 @@
 .aboutMe-container {
   background-color: black;
-  height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 20%;
 }
 .side {
   margin-left: 60px;

@@ -1,23 +1,24 @@
-import React, { useEffect } from "react";
-import Sidebar from "../../Sidebar/Sidebar";
-import SideNavbar from "../../SideNavbar/SideNavbar";
-import Header from "../Header/Header/Header";
+import React from "react";
+import AboutMe from "../../AboutMe/AboutMe";
+import Blog from "../../Blog/Blog/Blog";
+import ContactMe from "../../ContactMe/ContactMe";
+
+import Portfolio from "../../Portfolio/Portfolio";
+
 import HomeMain from "../HomeMain/HomeMain";
-import AboutMe from "../../AboutMe/AboutMe/AboutMe";
-import MyProtfolio from "../../MyProtfolio/MyProtfolio/MyProtfolio";
-import ContactMe from "../../ContactMe/ContactMe/ContactMe";
-//////
-import AOS from "aos";
-import "aos/dist/aos.css";
+import SideNavBar from "../SideNavBar/SideNavBar";
+
 const Home = () => {
   return (
     <div>
-      {/* <Header></Header> */}
-      <SideNavbar></SideNavbar>
+      <SideNavBar></SideNavBar>
       <HomeMain></HomeMain>
       <AboutMe></AboutMe>
-      <MyProtfolio></MyProtfolio>
+      <Portfolio></Portfolio>
+      <Blog></Blog>
       <ContactMe></ContactMe>
+      {/* <PortfolioCarosel></PortfolioCarosel>
+      <MyPortfolio></MyPortfolio> */}
     </div>
   );
 };

@@ -1,0 +1,22 @@
+.protfilio-header {
+  border-bottom: 1px dashed gray;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.seeMore-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.seeMore-btn button {
+  padding: 7px 20px;
+  border: 3px solid #db3d44;
+  background-color: black;
+}
+.seeMore-btn a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.myProjects-container {
+  padding-bottom: 20%;
+}

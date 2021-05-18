@@ -8,7 +8,9 @@ import {
   faQuoteRight,
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-// import { NavItem } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+import { Link as Goto } from "react-scroll";
+////////////////
 import SideNav, {
   Toggle,
   Nav,
@@ -19,8 +21,8 @@ import SideNav, {
 
 // Be sure to include styles at some point, probably during your bootstraping
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
-import { Link } from "react-router-dom";
-const SideNavbar = () => {
+///////////////
+const SideNavBar = () => {
   return (
     <div>
       <SideNav
@@ -47,65 +49,73 @@ const SideNavbar = () => {
 
           <NavItem eventKey="aboutMe">
             <NavIcon>
-              <Link to="/aboutMe">
+              <Goto to="aboutMe" smooth={true} duration={200}>
                 {" "}
                 <FontAwesomeIcon icon={faUser} style={{ fontSize: "1.75em" }} />
-              </Link>
+              </Goto>
             </NavIcon>{" "}
             <NavText>
               {" "}
-              <Link to="/aboutMe">about me</Link>
+              <Goto to="aboutMe" smooth={true} duration={200}>
+                about me
+              </Goto>
             </NavText>
           </NavItem>
 
           {/*  */}
           <NavItem eventKey="protfolio">
             <NavIcon>
-              <Link to="/protfilio">
+              <Goto to="protfilio" smooth={true} duration={500}>
                 {" "}
                 <FontAwesomeIcon
                   icon={faBriefcase}
                   style={{ fontSize: "1.75em" }}
                 />
-              </Link>
+              </Goto>
             </NavIcon>
             <NavText>
               {" "}
-              <Link to="/protfilio">Project</Link>
+              <Goto to="protfilio" smooth={true} duration={500}>
+                Project
+              </Goto>
             </NavText>
           </NavItem>
           {/*  */}
           <NavItem eventKey="blog">
             <NavIcon>
-              <Link to="/blog">
+              <Goto to="blog" smooth={true} duration={700}>
                 {" "}
                 <FontAwesomeIcon icon={faBook} style={{ fontSize: "1.75em" }} />
-              </Link>
+              </Goto>
             </NavIcon>
             <NavText>
               {" "}
-              <Link to="/blog">Blog</Link>
+              <Goto to="blog" smooth={true} duration={700}>
+                Blog
+              </Goto>
             </NavText>
           </NavItem>
 
           {/*  */}
           <NavItem eventKey="contactMe">
             <NavIcon>
-              <Link to="/contactMe">
+              <Goto to="contactMe" smooth={true} duration={1000}>
                 {" "}
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   style={{ fontSize: "1.75em" }}
                 />
-              </Link>
+              </Goto>
             </NavIcon>
             <NavText>
               {" "}
-              <Link to="/contactMe">contact me</Link>
+              <Goto to="contactMe" smooth={true} duration={1000}>
+                contact me
+              </Goto>
             </NavText>
           </NavItem>
           {/*  */}
-          <NavItem eventKey="charts">
+          {/* <NavItem eventKey="charts">
             <NavIcon>
               <Link to="/testimonial">
                 {" "}
@@ -118,17 +128,12 @@ const SideNavbar = () => {
             <NavText>
               <Link to="/testimonial">Testimonial</Link>
             </NavText>
-            {/* <NavItem eventKey="charts/linechart">
-              <NavText>Line Chart</NavText>
-            </NavItem>
-            <NavItem eventKey="charts/barchart">
-              <NavText>Bar Chart</NavText>
-            </NavItem> */}
-          </NavItem>
+            
+          </NavItem> */}
         </SideNav.Nav>
       </SideNav>
     </div>
   );
 };
 
-export default SideNavbar;
+export default SideNavBar;

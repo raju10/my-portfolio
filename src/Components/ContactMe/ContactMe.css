@@ -1,0 +1,14 @@
+.contactMe-container {
+  background-color: black;
+
+  padding-bottom: 100px;
+}
+.contactUs-Details {
+  padding-top: 50px;
+}
+.send-buttton {
+  padding: 3px 14px;
+  border: 2px solid crimson;
+  color: white;
+  background-color: black;
+}
